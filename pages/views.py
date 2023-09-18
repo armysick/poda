@@ -9,3 +9,5 @@ def home_page_view(request):
     return HttpResponse("Goodbye, World!")
 
 
+def another_page(request):
+  return HttpResponse("Safe space")
